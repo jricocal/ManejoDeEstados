@@ -11,10 +11,6 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'MisiónTIC 2022 Bloc',
-      theme: ThemeData(
-        primaryColor: Color(0xff4264b4),
-        accentColor: Color(0xff1d2448),
-      ),
       home: BlocProvider(
         create: (context) =>
             ConvertionBloc(), // constructor for the ConvertionBloc

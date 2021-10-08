@@ -9,10 +9,6 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'MisiónTIC 2022 GetX',
-      theme: ThemeData(
-        primaryColor: Color(0xff4264b4),
-        accentColor: Color(0xff1d2448),
-      ),
       home: Scaffold(
         appBar: AppBar(
           title: Text('MisiónTIC 2022 - Flutter GetX'),

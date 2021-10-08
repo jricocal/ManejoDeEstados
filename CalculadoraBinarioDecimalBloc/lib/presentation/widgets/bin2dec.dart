@@ -26,10 +26,8 @@ class Bin2Dec extends StatelessWidget {
                       // here we get the decimal value from the state
                       '${_state.decimal}',
                       textAlign: TextAlign.right,
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: Theme.of(context).accentColor,
-                          fontSize: 35),
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
                     ),
                   ),
                   Container(
@@ -39,10 +37,8 @@ class Bin2Dec extends StatelessWidget {
                       // here we get the  binary value from the state
                       '${_state.binary}',
                       textAlign: TextAlign.right,
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: Theme.of(context).accentColor,
-                          fontSize: 35),
+                      style:
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
                     ),
                   ),
                   Expanded(
@@ -59,7 +55,7 @@ class Bin2Dec extends StatelessWidget {
                     child: Container(
                       padding: const EdgeInsets.all(8.0),
                       child: MaterialButton(
-                        color: Theme.of(context).accentColor,
+                        color: Theme.of(context).colorScheme.secondaryVariant,
                         onPressed: () =>
                             BlocUtils().event(context, ResetEvent()),
                         child: Text(

@@ -19,10 +19,7 @@ class Dec2Bin extends StatelessWidget {
                   // here we get the decimal value from the state
                   '${controller.decimal}',
                   textAlign: TextAlign.right,
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Theme.of(context).accentColor,
-                      fontSize: 35),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
                 ),
               )),
           Container(
@@ -32,10 +29,7 @@ class Dec2Bin extends StatelessWidget {
                   // here we get the binary value from the state
                   '${controller.binary}',
                   textAlign: TextAlign.right,
-                  style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Theme.of(context).accentColor,
-                      fontSize: 35),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
                 )),
           ),
           Expanded(
@@ -205,7 +199,7 @@ class Dec2Bin extends StatelessWidget {
                     child: Container(
                       padding: const EdgeInsets.symmetric(horizontal: 4.0),
                       child: MaterialButton(
-                        color: Theme.of(context).accentColor,
+                        color: Theme.of(context).colorScheme.secondaryVariant,
                         onPressed: () => controller.reset(),
                         child: Text(
                           "Reset",

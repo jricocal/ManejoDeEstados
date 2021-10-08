@@ -26,9 +26,7 @@ class Dec2Bin extends StatelessWidget {
                         '${_state.decimal}',
                         textAlign: TextAlign.right,
                         style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: Theme.of(context).accentColor,
-                            fontSize: 35),
+                            fontWeight: FontWeight.bold, fontSize: 35),
                       ),
                     ),
                     Container(
@@ -39,9 +37,7 @@ class Dec2Bin extends StatelessWidget {
                         '${_state.binary}',
                         textAlign: TextAlign.right,
                         style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: Theme.of(context).accentColor,
-                            fontSize: 35),
+                            fontWeight: FontWeight.bold, fontSize: 35),
                       ),
                     ),
                     Expanded(
@@ -230,7 +226,9 @@ class Dec2Bin extends StatelessWidget {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 4.0),
                                 child: MaterialButton(
-                                  color: Theme.of(context).accentColor,
+                                  color: Theme.of(context)
+                                      .colorScheme
+                                      .secondaryVariant,
                                   onPressed: () =>
                                       BlocUtils().event(context, ResetEvent()),
                                   child: Text(

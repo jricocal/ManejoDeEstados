@@ -17,10 +17,7 @@ class Bin2Dec extends StatelessWidget {
                   child: Text(
                     calculator.binary,
                     textAlign: TextAlign.right,
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Theme.of(context).accentColor,
-                        fontSize: 35),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
                   ),
                 );
               },
@@ -33,10 +30,7 @@ class Bin2Dec extends StatelessWidget {
                   child: Text(
                     calculator.decimal,
                     textAlign: TextAlign.right,
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Theme.of(context).accentColor,
-                        fontSize: 35),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 35),
                   ),
                 );
               },
@@ -55,7 +49,7 @@ class Bin2Dec extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.all(8.0),
                 child: MaterialButton(
-                  color: Theme.of(context).accentColor,
+                  color: Theme.of(context).colorScheme.secondaryVariant,
                   onPressed: () =>
                       Provider.of<ConvertionModel>(context, listen: false)
                           .reset(),
