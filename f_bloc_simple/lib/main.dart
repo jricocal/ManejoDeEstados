@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:loggy/loggy.dart';
-import 'color_bloc.dart';
-import 'home.dart';
+import 'ui/theme/color_bloc.dart';
+import 'ui/pages/home.dart';
 
 // In this example we will not be using our regular project structure to help
 // with the understating of the state handler using Bloc

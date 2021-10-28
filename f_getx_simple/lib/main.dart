@@ -1,5 +1,5 @@
-import 'package:f_getx_simple/controller.dart';
-import 'package:f_getx_simple/home.dart';
+import 'package:f_getx_simple/domain/models/controller.dart';
+import 'package:f_getx_simple/ui/pages/home.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:loggy/loggy.dart';

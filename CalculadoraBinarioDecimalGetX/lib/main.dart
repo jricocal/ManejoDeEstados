@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'domain/contrlollers/converter_controller.dart';
-import 'presentation/screens/myhome.dart';
+import 'domain/models/converter_controller.dart';
+import 'ui/pages/myhome.dart';
 
 void main() {
   // here we use injection to instantiate our controller
