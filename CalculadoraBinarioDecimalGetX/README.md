@@ -2,6 +2,9 @@
 
 En este ejemplo se usa la librería GetX para implementar el convertor binario decimal
 
+<img src="https://user-images.githubusercontent.com/28717626/139278329-4f465f03-c6d4-4794-91c0-52b77769c4c0.gif" width="300" />
+
+
 Usamos:
 
 - Dependecy injection https://pub.dev/packages/get#dependency-management
