@@ -1,4 +1,4 @@
-import 'package:demo_app/domain/provider/convertion_model.dart';
+import 'package:demo_app/domain/models/provider/convertion_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
