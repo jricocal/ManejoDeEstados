@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'domain/models/converter_controller.dart';
+import 'domain/use_case/controllers/converter_controller.dart';
 import 'ui/pages/myhome.dart';
 
 void main() {
