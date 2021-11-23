@@ -10,13 +10,13 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'MisiónTIC 2022 Bloc',
+      title: 'MisiónTIC 2021 Bloc',
       home: BlocProvider(
         create: (context) =>
             ConvertionBloc(), // constructor for the ConvertionBloc
         child: Scaffold(
           appBar: AppBar(
-            title: Text('MisiónTIC 2022 - Flutter Bloc'),
+            title: Text('MisiónTIC 2021 - Flutter Bloc'),
           ),
           body: Center(
             child: Converter(),

@@ -11,7 +11,7 @@ class App extends StatelessWidget {
       title: 'MisiónTIC 2022 GetX',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('MisiónTIC 2022 - Flutter GetX'),
+          title: Text('MisiónTIC 2021 - Flutter GetX'),
         ),
         body: Center(
           child: Converter(),
